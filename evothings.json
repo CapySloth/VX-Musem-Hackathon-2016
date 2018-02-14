@@ -1,0 +1,17 @@
+{
+  "name": "template-basic-app",
+  "version": "1.0",
+  "title": "Basic Template App",
+  "description": "A basic template for a simple Evothings app.",
+  "tags": [],
+  "libraries": [
+    {
+      "name": "jquery",
+      "version": "2.1.1"
+    }
+  ],
+  "index-file": "index.html",
+  "uuid": "466fa025-e82f-4d59-bdca-7f774f745e10",
+  "icon": "app-icon.png",
+  "doc-url": "https://evothings.com/2.1/doc/examples/template-basic-app.html"
+}

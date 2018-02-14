@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=yes,
+		initial-scale=1.0" />
+
+	<title>Franklin Expedition Artifacts</title>
+
+	<style>
+		@import 'page.css';
+		@import 'ui/css/evothings-app.css';
+		@import 'ui/css/stylesheet.css';
+	</style>
+
+	<script>
+	// Redirect console if running from Evothings Workbench.
+	if (window.hyper) { console.log = hyper.log }
+	</script>
+</head>
+
+<body class="col-12" style="background-color:#2a2d4c">
+	<header>
+
+	<a href="index.html">
+		<button class="back">
+			<img src="ui/images/arrow-left.svg" />
+		</button>
+ </a>
+
+		<img class="logotype" src="logo2.png" alt="Evothings"  />
+		<!--<button class="menu" onclick=""><img src="ui/images/menu.svg" /></button>-->
+	</header>
+	<div class="my-page" id="page-default">
+		<div class="my-header">
+			<img class="my-header-image" src="logo2.png" />
+		</div>
+		<div  class="my-content">
+			<h1>Franklin Expedition Artifacts</h1>
+			<br>
+			<p>Please move within range of the Franklin Expedition Artifacts iBeacons</p>
+		</div>
+		<img class="my-header-image" src="photos/Banner.png" />
+	</div>
+
+	<div class="my-page" id="page-artifact1-near">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/HiddenArtifacts1000x355/MetalCase.png" width="400px" height="500px"/>
+			<img class="my-icon-back" src="icon-back.png" ontouchend="history.back()" />
+		</div>
+		<div class="my-content">
+			<h1>Artifact 1</h1>
+			<p>Nothing to see here</p>
+		</div>
+	</div>
+
+	<div class="my-page" id="page-artifact1">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/DisplayArtifact1000x355/MetalCase.png" width="400px" height="500px"/>
+			<img class="my-icon-back" src="icon-back.png" ontouchend="history.back()" />
+		</div>
+		<div class="my-content">
+			<h1>Artifact 1</h1>
+			<p>Nothing to see here</p>
+		</div>
+	</div>
+
+	<div class="my-page" id="page-artifact2-near">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/HiddenArtifacts1000x355/Canister.png" width="400px" height="500px" />
+			<img class="my-icon-back" src="icon-back.png" ontouchend="history.back()" />
+		</div>
+		<div class="my-content">
+			<h1>Artifact 2</h1>
+			<p>Nothing to see here either</p>
+		</div>
+	</div>
+
+	<div class="my-page" id="page-artifact2">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/DisplayArtifact1000x355/Canister.png" width="400px" height="500px" />
+			<img class="my-icon-back" src="icon-back.png" ontouchend="history.back()" />
+		</div>
+		<div class="my-content">
+			<h1>Artifact 2</h1>
+			<p>Nothing to see here either</p>
+		</div>
+	</div>
+
+	<div class="my-page" id="page-artifact3-near">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/HiddenArtifacts1000x355/MaulHammer.png" width="400px" height="500px" />
+			<img class="my-icon-back" src="icon-back.png" ontouchend="history.back()" />
+		</div>
+		<div class="my-content">
+			<h1>Artifact 3</h1>
+			<p>WOW! Much nothing, such see, very here</p>
+		</div>
+	</div>
+
+	<div class="my-page" id="page-artifact3">
+		<div class="my-header">
+			<img class="my-header-image" src="photos/DisplayArtifact1000x355/MaulHammer.png" width="400px" height="500px" />
+			<img class="my-icon-back" src="icon-back.png" ontouchend="history.back()" />
+		</div>
+		<div class="my-content">
+			<h1>Artifact 3</h1>
+			<p>WOW! Much nothing, such see, very here</p>
+		</div>
+	</div>
+
+	<script src="lib/jquery.js"></script>
+	<script src="cordova.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
